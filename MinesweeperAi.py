@@ -1,23 +1,10 @@
-"""
-Minesweeper with AI Agent
-Implements: Agents, Uninformed Search (BFS), Heuristics, CSP, Adversarial Search (Minimax)
-
-Modes:
-  - Manual Mode  : Classic player-controlled game
-  - AI Mode      : Agent solves the board autonomously, step by step
-
-
-"""
-
 import pygame
 import random
 import sys
 import time
 from collections import deque
 
-
 #  SETTINGS
-
 ROWS  = 8
 COLS  = 8
 MINES = 8
@@ -110,7 +97,7 @@ class Minesweeper:
             for dc in (-1,0,1):
                 nr,nc = r+dr, c+dc
                 if 0<=nr<ROWS and 0<=nc<COLS and (dr,dc)!=(0,0): # the cell itself (0,0) ignore it 
-                    yield nr,nc  # return the values value by value not a list (yields) ,,  return(list)
+                    yield nr,nc  # return the values value by value not a list (yields) 
 
     # ── BFS flood-fill reveal (Uninformed Search #1) ── Reveal a cell and auto-expand if blank (0)
     def reveal(self, r, c):
