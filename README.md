@@ -1,6 +1,6 @@
 # 💣 Minesweeper AI
  
-A fully playable Minesweeper game built in Python with an autonomous AI agent that can solve the board step by step. The application supports two modes: **Manual Mode** where the user plays normally, and **AI Mode** where the agent takes full control and solves the board using CSP, heuristics, and adversarial search.
+A fully playable Minesweeper game built in Python with an autonomous AI agent that can solve the board step by step. The application supports two modes: **Manual Mode** where the user plays normally, and **AI Mode** where the agent takes full control and solves the board using CSP, heuristics,adversarial search  and BFS.
  
 ---
  
