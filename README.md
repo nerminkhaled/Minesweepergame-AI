@@ -6,7 +6,7 @@ A fully playable Minesweeper game built in Python with an autonomous AI agent th
  
 ## 📸 Preview
  
-> *Manual Mode — play yourself | AI Mode — watch the agent solve it*
+> *Manual Mode — play yourself | AI Mode — watch the agent solve it / AI step*
  
 ---
  
