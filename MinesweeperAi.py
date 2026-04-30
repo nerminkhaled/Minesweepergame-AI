@@ -46,7 +46,7 @@ NUM_COLOR = {
 
 
 
-#   GAME LOGIC  (unchanged from original + minor hook)
+#   GAME LOGIC  
 
 class Minesweeper:
     """Core game logic. board[r][c] = -1 mine, 0-8 neighbor count."""
